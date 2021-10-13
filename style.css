@@ -1,0 +1,35 @@
+*{
+    font-family: 'Noto Sans Display', sans-serif;
+}
+
+.marquee {
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+    background: #fefefe;
+    color: #333;
+    border: 1px solid #4a4a4a;
+}
+
+.marquee h3 {
+    position: absolute;
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+}
+
+#video{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+}
+
+.my_nav_bar{
+    position:sticky;
+    top: 0;
+    z-index:99999;
+}
+
+#achievements img{
+    width:200px;
+}

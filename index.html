@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>School Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999;margin-top: 5px;">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Mohd Kaif</a>
+        </div>
+
+        <div class="collapse navbar-collapse text-capitalize" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#welcome">announcement</a></li>
+                <li><a href="#video">videos</a></li>
+                <li><a href="#achievements">achievements</a></li>
+                <li><a href="#whatsnew">whats new</a></li>
+                <li><a href="#contact_1">contact me</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="welcome">
+        <marquee id="marqueeStyle" onmouseover="this.stop()" onmouseout="this.start()" class="marquee">
+            <h3>** Feel free to ask any queries on <a href="mailto:school@gmail.com?Subject=hi"><i class="fa fa-envelope"><img src="mail_black_48dp.svg">school@gmail.com</i></a> **</h3>
+        </marquee>
+    </div>
+    <div id="video">
+        <center>
+            <img src="https://img.freepik.com/free-vector/school-education-building-street-outdoor-landscape-cartoon-illustration_7081-1942.jpg">
+        </center>
+    </div>
+    <div id="achievements">
+
+        <div class="page-header">
+            <h2>Achievements</h2>
+        </div>
+        <span><i class="fa fa-chevron-left" onclick="preslide()" style="cursor: pointer;"></i></span><br>
+        <span><img id="images" src="myach1.jpg" class="img-responsive col-lg-12 col-md-12 col-sm-12 col-xs-12"></span><br>
+        <span><i class="fa fa-chevron-right" onclick="nextslide()" style="cursor: pointer;"></i></span>
+
+    </div>
+    <hr style="width: 100%;">
+    <div class="page-header" id="whatsnew">
+        <h2>Whats New</h2>
+    </div>
+
+    <ul class="list-group">
+        <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h4 class="text-capitaize">New School Canteen</h4>
+            <img src="cantten.jpg" class="img-responsive col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <p class="list-group-item-text col-lg-12 col-md-12 col-sm-12 col-xs-12">The canteen is a service that the school offers to all families who need their children to be attended during lunchtime, understanding this service, apart from a space to eat, as a complement of the educational activity, a space where we work for the integral education of our students at cultural, social, leisure.</p>
+        </li>
+
+        <li class="list-group-item list-group-item-warning col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h4 class="text-capitaize">Implemented Online Attendence System</h4>
+            <img src="Online-Attendance-Management-System-768x722.png" class="img-responsive col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <p class="list-group-item-text col-lg-12 col-md-12 col-sm-12 col-xs-12">“Online attendance management system” or “e-attendance” is one of them! Online Attendance Management System is an application developed for student's daily attendance in school. It helps to maintain the accurate record and generate summarized student attendance reports for the students by applying various criteria.</p>
+        </li>
+    </ul>
+    <div id="contact">
+        <section id="contact_1">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55840.546041843496!2d79.35675775308148!3d28.986359703954797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a07f9567c1f745%3A0xdffe5c8738783baf!2sRudrapur%2C%20Uttarakhand!5e0!3m2!1sen!2sin!4v1627051155804!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <div class="contact_1 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <a href="mailto:mohdkaifu12345@gmail.com?Subject=Hello"><i class="fa fa-envelope"></i>&nbsp;&nbsp;<h3>mohdkaifu12345@gmail.com</h3></a>
+                <a href="https://instagram.com"><i class="fa fa-instagram"></i>&nbsp;&nbsp;<h3>schoolId</h3></a>
+                <a href="#"><i class="fa fa-phone-square"></i>&nbsp;&nbsp;<h3>7302048315</h3></a>
+
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
